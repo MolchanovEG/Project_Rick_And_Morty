@@ -1,0 +1,31 @@
+.wrapper {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+
+  max-width: 740px;
+  width: 100%;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  color: var(--color-gray-700);
+}
+
+.textField {
+  height: 64px;
+  padding: 20px 40px;
+
+  background: white;
+  border: 1px solid var(--color-gray-500);
+  border-radius: 8px;
+}
+
+.clearIcon {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  color: var(--color-gray-700);
+}
